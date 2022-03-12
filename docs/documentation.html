@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<title>documentation</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<!--[if lt IE 9]><script src="js/html5.js"></script><![endif]-->		
+</head>
+<body>
+<!-- BEGIN BODY -->
+	<div class="main_wrapper">
+<!-- BEGIN HEADER -->
+		<header>
+			<a href="#"><img src="img/logo.png" alt="" class="logo"></a>
+		</header>
+<!-- HEADER EOF   -->
+<!-- BEGIN CONTENT -->
+		<div class="content">
+			<div class="wrapper">
+				<h1>Zorgo Construction &amp; Industrial HTML template documentation</h1>
+				<aside class="sidebar">
+					<ul id="menu">
+						<li class="active"><a href="#block_1">Fonts</a></li>
+						<li><a href="#block_2">Sliders</a></li>
+						<li><a href="#block_3">Filters</a></li>
+						<li><a href="#block_4">Accordions</a></li>
+						<li><a href="#block_5">GoogleMaps</a></li>
+						<li><a href="#block_6">Features</a></li>
+						<li><a href="#block_7">Sidebar</a></li>		
+						<li><a href="#block_8">Contact form</a></li>						
+					</ul>
+				</aside>
+				<div class="main_coll">
+					<div class="scroll-pane">
+						<div class="scroll-inside">
+							<h2>Template documentation</h2>
+							<div id="block_1">
+								<h3>1.	Fonts</h3>
+								<p><strong>To change fonts we need to do the following:</strong></p>
+								<p>a. Go here <a href="#">https://www.google.com/fonts</a><br>
+									b. Select and connect font in comfortable way for us<br>
+									c. In folder scss in the file vars.scss edit line scss в файле vars.scss from $main-font: "Open Sans"; to $main-font: "your font";<br>
+									d. Compile SCSS
+								</p>
+								<p><strong>Video header - home_style_4.html.</strong></p>
+								<div class="img_box"><img src="img/img1.png" alt=""></div>
+								<p>You can change the video indicating the appropriate path:</p>
+								<div class="img_box"><img src="img/img2.png" alt=""></div>
+							</div>
+							<div id="block_2">
+								<h3>2. Sliders</h3>
+								<p><strong>The main slider (header)</strong><br>
+									To add / remove items in the class <strong>.line-advantages-carusel</strong>, add or remove <strong>.line-advantages-carusel_item</strong>. You should use the same class name for correct work. You can add images to the slider, prescribing the appropriate path to the image. It looks like this:
+								</p>
+								<div class="img_box"><img src="img/img3.png" alt=""></div>
+								<p>You can change the slider’s options in the file <strong>сustom.js</strong>. Find the script with the specified <strong>id #gal_advantages</strong>, which is responsible for the slider’s work.</p>
+								<p><strong>You can change:</strong></p>
+								<ul>
+									<li>Scroll (auto) – true/false;</li>
+									<li>Responsive – true/false;</li>
+									<li>Swipe – true/false;</li>
+									<li>Scroll – show the number of scrolling elements</li>
+									<li>Url for the button (prev\next) – indicating the element’s id;</li>
+									<li>Min and max of the visible elements;</li>
+								</ul>
+								<div class="img_box"><img src="img/img4.png" alt=""></div>
+								<p><strong>The footer slider (our clients)</strong><br>
+									If you want to change client`s image, you should add your own images in folder <strong>/img</strong> and set the correct name for the images in the file <strong>style.css:</strong>
+								</p>
+								<div class="img_box"><img src="img/img5.png" alt=""></div>
+								<p>To add / remove items in the class <strong>.line-advantages-carusel</strong>, add or remove <strong>.list-partners_item</strong>. You should use the same class names for correct work. You can add images to the slider, writing the appropriate path to the image. It looks like this:</p>
+								<div class="img_box"><img src="img/img6.png" alt=""></div>
+								<p>You can change the slider’s options in the file <strong>сustom.js</strong>. Find the script with the specified <strong>id #gal_parhners</strong>, which is responsible for the slider’s work.</p>
+								<p><strong>You can change:</strong></p>
+								<ul>
+									<li>Scroll (auto) – true/false;</li>
+									<li>Responsive – true/false;</li>
+									<li>Swipe – true/false;</li>
+									<li>Scroll – show the number of scrolling elements</li>
+									<li>Url for the button (prev\next) – indicating the element’s id;</li>
+									<li>Min and max of the visible elements;</li>
+								</ul>
+								<div class="img_box"><img src="img/img7.png" alt=""></div>
+								<p><strong>Testimonials slider:</strong><br>
+									To add / remove items in the class <strong>.testimonials-slider</strong>, add or remove  <strong>.testimonials-slider__item</strong>. You should use the same class names for correct work. You can add background images and person’s photo. Also yon can add text into the slider. It looks like this:
+								</p>
+								<div class="img_box"><img src="img/img8.png" alt=""></div>
+								<p>You can change the slider’s options in the file <strong>сustom.js</strong>. Find the script with the specified <strong>id #testimonials_gal</strong>, which is responsible for the slider’s work.</p>
+								<p><strong>You can change:</strong></p>
+								<ul>
+									<li>Scroll (auto) – true/false;</li>
+									<li>Responsive – true/false;</li>
+									<li>Swipe – true/false;</li>
+									<li>Scroll – show the number of scrolling elements</li>
+									<li>Url for the button (prev\next) – indicating the element’s id;</li>
+									<li>Min and max of the visible elements;</li>
+								</ul>
+								<div class="img_box"><img src="img/img9.png" alt=""></div>
+							</div>
+							<div id="block_3">
+								<h3>3. Filters</h3>
+								<p>To use filters you need to add filters names and images. To change or add a category, you should use the following method:</p>
+								<div class="img_box"><img src="img/img10.png" alt=""></div>
+								<p>Class <strong>active</strong> is responsible for the fact that the filter is active and is the first to display on the screen. The name of the <strong>data-filter</strong> ought to match the name of the category, except the element <strong>all</strong>, which ought to be *.<br>Each element of the filter category is defined as follows:</p>
+								<div class="img_box"><img src="img/img11.png" alt=""></div>
+								<p>“The <strong>Image Viewer”</strong> opens when you click on the filter element. Its configurations are saved in the file <strong>jquery.fancybox.pack.js</strong>. By default the size of images is automatically.</p>
+							</div>
+							<div id="block_4">
+								<h3>4. Accordions</h3>
+								<div class="img_box"><img src="img/img12.png" alt=""></div>
+								<p>To add a new tab, you need to add a list item as is shown below. Similarly, you can remove tab. For the correct work use the same classes, because they are responsible for the work of accordions.<br>
+									You can specify accordions as follows:
+								</p>
+								<div class="img_box"><img src="img/img13.png" alt=""></div>
+							</div>
+							<div id="block_5">
+								<h3>5. GoogleMaps</h3>
+								<p>We should use the next script to connect the GoogleMaps API.</p>
+								<div class="img_box"><img src="img/img62.jpg" alt=""></div>
+								<p>Then you will see the script with different options</p>
+								<div class="img_box"><img src="img/img14.png" alt=""></div>
+								<p>You can indicate visible elements, map zoom and map’s size in the script.<br>
+									To set the initial coordinates you should use a variable – “<strong>myLatlng</strong>” where you indicate longitude and latitude.<br>
+									This code below and variables are responsible for setting markers names, regions, cities and countries. You can change it by changing the value from off to on.
+								</p>
+								<div class="img_box"><img src="img/img15.png" alt=""></div>
+								<p>This code is responsible for the name of water resources.</p>
+								<div class="img_box"><img src="img/img16.png" alt=""></div>
+							</div>
+							<div id="block_6">
+								<h3>6. Features</h3>
+								<p><strong>Progress Bars:</strong><br>
+									In the style tag specify the desired value, and the line of progress bar changes, also do not forget to change the value in the other elements. By default maximum value is 100. Below there is an example of the progress bar:
+								</p>
+								<div class="img_box"><img src="img/img17.png" alt=""></div>
+								<p><strong>Progress Bar looks like:</strong></p>
+								<div class="img_box"><img src="img/img18.png" alt=""></div>
+								<p><strong>Buttons:</strong><br>
+									In order to use buttons that you like, add class names to your current buttons. To change the text of the button, find the following code:
+								</p>
+								<div class="img_box"><img src="img/img19.png" alt=""></div>
+								<p><strong>Some examples of the buttons:</strong><br>
+									btn btn-defaultbtn-default
+								</p>
+								<div class="img_box"><img src="img/img20.png" alt=""></div>
+								<p>btn btn-default btn-small btn-radius-large</p>
+								<div class="img_box"><img src="img/img21.png" alt=""></div>
+								<p>btn btn-primary btn-large btn-radius-small</p>
+								<div class="img_box"><img src="img/img22.png" alt=""></div>
+								<p>btn btn-primary btn-small btn-radius-small btn-border btn-two-border</p>
+								<div class="img_box"><img src="img/img23.png" alt=""></div>
+								<p>You can change the border of the button adding classes <strong>btn-radius-large</strong>, <strong>btn-radius-small</strong> and other similar classes.<br>
+									<strong>Cards of team members:</strong> <br>
+									Cards of team members are indicated in the file <strong>team_worker.html</strong>. You can set description text for a team member in this part of code:
+								</p>
+								<div class="img_box"><img src="img/img24.png" alt=""></div>
+								<p>You should also fill out the appropriate card about each participant, located below the main entry. Clicking on the card, you will be redirected on the page which describing participant.<br>
+									Everything is set in a list in which you need to specify links to social networks where the participants are, and a link to its description.
+								</p>
+								<div class="img_box"><img src="img/img25.png" alt=""></div>
+								<p><strong>Quotations:</strong><br>
+									This type of text italicized from the all others looks like
+								</p>
+								<div class="img_box"><img src="img/img26.png" alt=""></div>
+								<p>In order to set such text, use the class name <strong>spec-text</strong>:</p>
+								<div class="img_box"><img src="img/img27.png" alt=""></div>
+								<p><strong>Comments:</strong><br>
+									In blogs users may post comments. They look like this:
+								</p>
+								<div class="img_box"><img src="img/img28.png" alt=""></div>
+								<p>To add a comment you need to move to the element in which you must write your comment and indicate your name and e-mail.<br>
+									<strong>The project cards:</strong><br>
+									The project cards let you see the list of projects and read the appropriate information about them.
+								</p>
+								<div class="img_box"><img src="img/img29.png" alt=""></div>
+								<p>The data is set by list, as shown below:</p>
+								<div class="img_box"><img src="img/img30.png" alt=""></div>
+								<p><strong>Blocks with the description of the service:</strong><br>
+									To describe the services you can use 3 service-types with different elements.<br>
+									<strong>Service-type</strong> (file <strong>service_type_1.html</strong>):
+								</p>
+								<div class="img_box"><img src="img/img31.png" alt=""></div>
+								<p>In this service-type we indicate the description and set the icons with the corresponding values for description. To change the description and icons find and change the description in the following code block:</p>
+								<div class="img_box"><img src="img/img32.png" alt=""></div>
+								<p><strong>Service-type</strong> (file <strong>service_type_2.html</strong>):</p>
+								<div class="img_box"><img src="img/img33.png" alt=""></div>
+								<p>In this service-type we indicate the description and set markers with the corresponding values for description. To change the description and markers find and change the description in the following code block: </p>
+								<div class="img_box"><img src="img/img34.png" alt=""></div>
+								<p>Service card is setting by icons and description text. They look like this:</p>
+								<div class="img_box"><img src="img/img35.png" alt=""></div>
+								<p>You can also specify a service card. To change them find the following code:</p>
+								<div class="img_box"><img src="img/img36.png" alt=""></div>
+								<p><strong>Service-type</strong> (file <strong>service_type_3.html</strong>):</p>
+								<div class="img_box"><img src="img/img37.png" alt=""></div>
+								<p>In this service-type the project card and corresponding markers with the description are used. To change the description of the cards and markers find and change the description in next part of code:</p>
+								<div class="img_box"><img src="img/img38.png" alt=""></div>
+								<p><strong>Call to action:</strong><br>
+									You can use these elements to call to action:
+								</p>
+								<div class="img_box"><img src="img/img39.png" alt=""></div>
+								<p>Changing the content of these elements is performed in the file cta.html. All you need to do is to indicate your description and also to use appropriate classes for style design:</p>
+								<div class="img_box"><img src="img/img40.png" alt=""></div>
+								<p><strong>Description elements:</strong><br>
+									Each description is set by the title and the main text. You can also use images, icons, progress bars. To install your description, you need to find an element in the HTML code and replace it with your text, pictures, icons.<br>
+									<strong>Posts blog (adding video, audio post and quotes):</strong><br>
+									You can keep your blog and post the images, audio files, video files and make a free description of everything that you want to write. You can change everything that you want in the file <strong>blog.html</strong>.<br>
+									In order to insert a video in your blog you need to add a link to this video in the next position of code:
+								</p>
+								<div class="img_box"><img src="img/img41.png" alt=""></div>
+								<p>In order to insert audio in your blog you can choose the file and download it, the library adapts it and let it to be played.</p>
+								<div class="img_box"><img src="img/img42.png" alt=""></div>
+								<p><strong>Masonry blog:</strong><br>
+									This type of blog made in the form of blocks with posts. When you open it there is a full page description. Its functionality is similar to projects cards or workers. That is, we can change the picture and description, the same as in a card.
+								</p>
+								<div class="img_box"><img src="img/img43.png" alt=""></div>
+								<p><strong>9. Connecting of icons (via library)</strong><br>
+									To change and use the icons you can click on the following link: <a href="#">https://fortawesome.github.io/Font-Awesome/icons/</a> and select the icon that you like and add its class name in the appropriate part of code:
+								</p>
+								<div class="img_box"><img src="img/img44.png" alt=""></div>
+							</div>
+							<div id="block_7">
+								<h3>7. Sidebar</h3>
+								<p>Templates are available with the left and right sidebar. They look like this:<br>
+									<strong>Right sidebar:</strong>
+								</p>
+								<div class="img_box"><img src="img/img45.png" alt=""></div>
+								<p>
+								<strong>Left sidebar:</strong>
+								</p>
+								<div class="img_box"><img src="img/img46.png" alt=""></div>
+								<p>In these sidebars you can find elements there are posts from the blog, categories which help to make a choice, RSS news, search page and the most common tags. Advertising also can be placed here or call to action message.<br>
+									You can add the elements of sidebar or remove them. To do it, find a tag aside and look for corresponding elements in it:
+								</p>
+								<div class="img_box"><img src="img/img47.png" alt=""></div>
+								<p><strong>Sidebar elements:</strong><br>
+									<strong>Posts:</strong><br>
+									In the sidebar menu there, are the last post from the blog. They look like this:
+								</p>
+								<div class="img_box"><img src="img/img48.png" alt=""></div>
+								<p>You can change posts configuration in this part of code:</p>
+								<div class="img_box"><img src="img/img49.png" alt=""></div>
+								<p><strong>Categories:</strong><br>
+									In the sidebar menu there are categories which help you to find the information that you need:
+								</p>
+								<div class="img_box"><img src="img/img50.png" alt=""></div>
+								<p>You can change categories configuration in this part of code (categories are given in the form of hidden list):</p>
+								<div class="img_box"><img src="img/img51.png" alt=""></div>
+								<p><strong>RSS:</strong><br>
+									You can use RSS news connecting them to resources that you need.
+								</p>
+								<div class="img_box"><img src="img/img52.png" alt=""></div>
+								<p>You can change RSS view in the following part of code:</p>
+								<div class="img_box"><img src="img/img53.png" alt=""></div>
+								<p><strong>Search:</strong><br>
+									You can use a search in your website using the next sidebar element:
+								</p>
+								<div class="img_box"><img src="img/img54.png" alt=""></div>
+								<p>You can change placeholder and icon of your search form:</p>
+								<div class="img_box"><img src="img/img55.png" alt=""></div>
+								<p><strong>Tags:</strong><br>
+									You can use tag element to indicate the most common tags which are in your website:
+								</p>
+								<div class="img_box"><img src="img/img56.png" alt=""></div>
+								<p>You can add and remove tags using the next part of code:</p>
+								<div class="img_box"><img src="img/img57.png" alt=""></div>
+								<p><strong>Calendar:</strong><br>
+									You can use calendar element to plan your events on some days.
+								</p>
+								<div class="img_box"><img src="img/img58.png" alt=""></div>
+								<p>Calendar element is setting by next part of code (The date is by default which is set in your system):</p>
+								<div class="img_box"><img src="img/img59.png" alt=""></div>
+								<p><strong>Archives:</strong><br>
+									Archives element helps you to look over items which are created during the month.
+								</p>
+								<div class="img_box"><img src="img/img60.png" alt=""></div>
+								<p>You can change this element in next part of code:</p>
+								<div class="img_box"><img src="img/img61.png" alt=""></div>
+							</div>
+							<div id="block_8">
+								<h3>8. Contact form</h3>
+								<p>To receive emails, you have to replace email address to yours</p>
+								<div class="img_box"><img src="img/img63.jpg" alt=""></div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+<!-- CONTENT EOF   -->
+	</div>
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js" ></script>
+	<script type="text/javascript" src="js/jquery-migrate.min.js" ></script>
+	<script type="text/javascript" src="js/plugins.js" ></script>
+	<script type="text/javascript" src="js/scripts.js" ></script>
+</body>
+</html>
